@@ -1,0 +1,396 @@
+<!DOCTYPE>
+<!--lang is for language
+Hier ar alle the landcodes:https://www.w3schools.com/tags/ref_language_codes.asp-->
+<html lang="en">
+
+<HEAD>
+
+<!-- This is to call on an external style sheet-->
+  <link rel="stylesheet" href="styles.css">
+
+<!-- In the html je write your internal style like this <style></style>
+Styles for links.-->
+  <style>
+
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:link, a:visited {
+      background-color: #85bf31;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 15px;
+      text-align: left;
+    }
+    #t01 {
+      width: 100%;
+      background-color: #f1f1c1;
+
+
+  </style>
+
+
+
+</HEAD>
+  <body>
+<!-- Style voor Navigation
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+-->
+    <h2>Navigation Menu</h2>
+    <p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+
+
+    <H2> Headings</h2>
+      <hr>
+      <p>The HR tag makes a line over the screen.</p>
+
+      <h1>This is heading 1 Titles</h1>
+      <h2>This is heading 2 Sub titles</h2>
+      <h3>This is heading 3 Attention points in the Subs</h3>
+      <h4>This is heading 4 Listings</h4>
+      <h5>This is heading 5 Small</h5>
+      <h6>This is heading 6 Mini</h6>
+
+
+      <h2> Paragraaf</h2>
+      <hr>
+
+      <p> This is een Paragraaf.</p>
+      <p>This is a <br> paragraph with a line break.</p>
+      <p title="I'm a tooltip for SEO">When hovering you see an extra text. But it doesn't work</p>
+
+      <pre>The PRE element defines preformatted text.So
+      Your html text wil be precisely
+      the same in layout as on your
+      website.
+      </pre>
+
+
+    <h2> Links</h2>
+      <hr>
+      <p><b>Absolute URL </b>- Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".</p>
+
+      <p><b>Relative URL </b>- Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".</p>
+
+      <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools in a new tab!</a>
+      <p>If target="_blank", the link will open in a new browser window or tab.</p>
+
+      <p>The image below is a link. Try to click on it.</p>
+      <a href="default.asp"><img src="images/cat4.jpg" alt="HTML tutorial image link" style="width:42px;height:42px;"></a>
+
+      <a href="mailto:info@zoepiper.com">Send me email</a>
+
+      <p>To use an HTML button as a link, you have to add some JavaScript code.</p>
+      <button onclick="document.location='default.asp'">HTML Tutorial button</button>
+
+      <p>The title attribute shows tooltip text when the mouse moves over the element.</p>
+      <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+
+      <p>A link styled as a button:</p>
+      <a href="default.asp" target="_blank">This is a link</a>
+
+      <h3>Bookmarker</h3>
+      <p><a href="#C4">Jump to Chapter 4</a></p>
+      <p><a href="#C10">Jump to Chapter 10</a></p>
+
+      <h2>Chapter 1</h2>
+      <p>This chapter explains ba bla bla</p>
+
+      <h2>Chapter 2</h2>
+      <p>This chapter explains ba bla bla</p>
+
+      <h2>Chapter 3</h2>
+      <p>This chapter explains ba bla bla</p>
+
+      <h2 id="C4">Chapter 4</h2>
+      <p>Add a id tag to the chapters to make the link</p>
+
+      <h2>Chapter 5</h2>
+      <p>This chapter explains ba bla bla</p>
+
+      <h2 id="C10">Chapter 10</h2>
+      <p>This chapter explains ba bla bla</p>
+
+
+    <h2> Styles </h2>
+      <hr>
+      <p>This is inline</p>
+
+      <p style="color:red;">This is a red paragraph because of it's style attribute.</p>
+      <h1 style="background-color:powderblue;">The background of the text turns into a color</h1>
+      <p style="background-color:tomato;">This is a paragraph.</p>
+      <h1 style="font-family:verdana;">Change the font family</h1>
+      <h1 style="font-size:300%;">Change the size of H1</h1>
+      <h1 style="font-size:60px;">Make it bigger</h1>
+      <h1 style="text-align:center;">Centered Heading</h1>
+      <p style="text-align:right;">Centered paragraph.</p>
+
+    <h2> Formating</h2>
+      <hr>
+      <pre>Normal<b>This text is bold.</b>
+      <strong>This text is important!</strong>
+      <i>This text is italic</i>
+      <em>This text is emphasized</em>
+      <small>This is some smaller text.</small>
+      Do not forget to buy <mark>milk</mark> today Mark.
+      Cross out the color<del>blue</del> red.
+      My favorite color is underlined <del>blue</del> <ins>red</ins>.
+      This is <sub>subscripted</sub> text.
+      This is <sup>superscripted</sup> text.</pre>
+
+    <h2> Quotation and Citation Elements</h2>
+      <hr>
+      <p>Here is a quote from WWF's website:</p>
+      <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      Blockquotations give it a tab at the front side.
+      <q>Quotes with quotation marks are made with a Q</q>
+      <abbr title="World Health Organization">WHO</abbr> is an abbreviation. In the code there is the full name.
+      <address>
+      Writen by:
+      Email: <a href="mailto:z.piper@me.com"> my email</a> This is always italic.
+      </address>BDO stands for Bi-Directional Override.
+      The HTML BDO tag is used to override the current text direction. Useful for arabic.
+      <bdo dir="rtl">This line will be written from right to left</bdo>
+      If the block quote is bigger you will see a beautiful block form
+      </blockquote>
+
+      <img src="images/cat3.jpg" width="220" height="277" alt="The Scream">
+      <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+      The title of the painting is a cite. This is also in italic.
+
+    <!-- Write your comments here -->
+
+    <h2>Colors</h2>
+      <hr>
+      <p>Same as color name "Tomato":</p>
+
+      <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+      <h1 style="background-color:#ff6347;">#ff6347</h1>
+      <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+      <p>Same as color name "Tomato", but 50% transparent:</p>
+      <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+      <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
+      <p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+
+    <h2>Images</h2>
+        <hr>
+<<p>The required src attribute specifies the path (URL) to the image.<br>
+  If a browser cannot find an image, it will display the value of the alt attribute</p>
+<img src="images/cat1.jpg" alt="Flowers in Chania"style="width:250px;height:300px;">
+<<p>When using style in the syntax it overrides the style at the beginning of the page</p>
+<img src="images/cat1.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+<h2>Image Maps</h2>
+<hr>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic.<br>
+  <ul>
+    <li>For a rectangle shap "rect" you need the pixel coordinates of the top left pixel (x,y axis) And the bottom right pixel coordinates</li>
+    <li>The shape="poly" contains several coordinate points, which creates a shape formed with straight lines (a polygon).Free form</li>
+    <li>Maybe useful figuring the pixels out by using photoshop and guidelines</li>
+    <li><b>With a javascript function you can add funtiocality to the button area. Press on the coffe cup and you will get a warning</b></li>
+  </ul>
+</p>
+<img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+
+<div style="background-image: url('images/cat1.jpg');">
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image is in s >div> container<br>
+You can also do this in a <p> paragraph<br>
+</div>
+
+<p>You do this in de styles section.<br>
+  By default, the background image will repeat itself <br>
+  In the styles you can add <b> background-repeat: no-repeat;</b><br>
+  If you want the background image to cover the entire element,<b>background-size: cover;</b> <br>
+  Also, to make sure the entire element is always covered, set the <b>background-attachment: fixed;</b><br>
+  When it's fixed you have a upward scroll effect.Scroll is static placement
+</p>
+
+<p>Resize your browser to see different versions of the picture loading at different viewport sizes.<br>
+Useful for responsiveness, mobile tablet and computer.</p>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="images/img_girl.jpg">
+  <source media="(min-width: 465px)" srcset="images/pic_trulli.jpg">
+  <img src="images/cat2.jpg" style="width:auto;">
+</picture>
+
+<h2>Tables</h2>
+<hr>
+<p>Begin with making a <table> <br>
+  th are alwaway bold <br>
+  tr stands for table row</p>
+  <p>Adding the style to:table, th, td {border: 1px solid black;border-collapse: collapse;}
+</p>
+
+<table style="width:100%"">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<p>With <b>colspan or rowspan</b> you can merge cellsbr
+using <b>caption</b> you can make a title for your table</p>
+
+<table id="t01"style="width:100%">
+  <tr>
+    <caption>Monthly savings</caption>
+    <th rowspan="2">Name</th>
+    <th colspan="2">Telephone</th>
+    <th> Others</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>55577854</td>
+    <td>55577855</td>
+  </tr>
+</table>
+
+<h2>list</h2>
+<hr>
+<p>unordered lists have a dot (in styles you can change this)<br>
+  orderd lists are numbered Or alfabet (<ol type="I">)add:A, a, 1 or I <br>
+  Or if you want to start somewhere:<ol start="50"> </p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<p>You can style the circles with: <ul style="list-style-type:square;">, circle</p>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<p> <b><dl></b>  tag defines the description list, <br>
+  the <b><dt></b> tag defines the term (name), <br>
+    and the <b><dd></b> tag describes each term
+    </p>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+   <dd> black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+  <dd>- white cold drink</dd>
+</dl>
+
+
+<h2>Div</h2>
+<hr>
+<p>The <div> element is common for blocks to change style, class and id.<br>
+The <span> element is common for inline changes style, class and id.</p>
+  <p>In the following example we have three <div> elements with a class <br>
+    attribute with the value of "city". All of the three <div> elements will <br>
+    be styled equally according to the .city style definition in the head section:</p>
+
+<p>To create a class; write a period (.) character in the style, followed by a class name. <br>
+  Then, define the CSS properties within curly braces {}:</p>
+<p>The id attribute specifies a unique id for an HTML element.<br>
+The syntax for id is: write a hash character (#), followed by an id name. <br>
+Then, define the CSS properties within curly braces {}</p>
+
+
+<h2>In Frame</h2>
+<hr>
+<p>An HTML iframe is used to display a web page within a web page.</p>
+<iframe src="http://www.zoepiper.com" height="200" width="300" style="border:none;" title="my website"></iframe>
+
+  </BODY>
+</HTML>
